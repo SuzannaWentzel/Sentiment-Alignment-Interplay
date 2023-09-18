@@ -162,6 +162,7 @@ cython_debug/
 # Project specific
 AlignmentData/
 Data/
+DataBackup/
 PickleData/
 Results/
 markers.py
