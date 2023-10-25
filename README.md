@@ -12,6 +12,12 @@ Data should be added to a Data folder, add the path to the __datapath__ variable
 - parent_missing
 
 After adding the data, the following notebooks can be used step by step to investigate the interplay between sentiment and alignment:
+1. Preprocessing => [preprocessing.py](preprocessing.py)
+2. Alignment analysis => [compute_lexical_word_alignment_v2_all.py](compute_lexical_word_alignment_v2_all.py)
+3. Sentiment analysis => [sentiment_analysis.py](sentiment_analysis.py)
+4. Interplay analysis => [interplay_analysis.py](interplay_analysis.py)
+
+Cleaning up the code is still a work in progress, but will appear here:
 1. Preprocessing => [preprocessing_notebook.py](preprocessing_notebook.py)
 2. Alignment analysis => [lexical_alignment_notebook.py](lexical_alignment_notebook.py)
 3. Sentiment analysis => [sentiment_notebook.py](sentiment_notebook.py)
